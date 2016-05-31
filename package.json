@@ -2,7 +2,7 @@
   "name": "frontend-sandbox",
   "version": "1.0.0",
   "description": "Startup Package for React and Redux  with Babel support.",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -35,6 +35,9 @@
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "redux-logger": "^2.6.1",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.1.0"
   }
 }
