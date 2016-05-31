@@ -1,9 +1,9 @@
 import React from 'react';
 
+import Greet from './greet_container';
+
 export default function() {
   return (
-    <div>
-      Hello There!. This is react redux app.
-    </div>
+      <Greet />
   )
 }
